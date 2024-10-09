@@ -15,5 +15,5 @@ jobs:
 
       - name: Run batch file
         run: |
-             "D:\Login.bat"
+             "D:\Login"
        
