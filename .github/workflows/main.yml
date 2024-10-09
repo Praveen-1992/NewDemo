@@ -1,0 +1,19 @@
+name: Run Zebra Tester Scripts
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  run-zebra-tester:
+    runs-on: windows-latest
+
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v4
+
+      - name: Run batch file
+        run: |
+           call C:\Users\qaloadui\Desktop\Login.bat
+       
