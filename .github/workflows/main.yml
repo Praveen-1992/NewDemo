@@ -15,5 +15,5 @@ jobs:
 
       - name: Run batch file
         run: |
-            .\\C:\\Users\\qaloadui\\Desktop\\Login.bat
+            C:\\Users\\qaloadui\\Desktop\\Login.bat
        
